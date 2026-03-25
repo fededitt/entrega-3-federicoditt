@@ -12033,10 +12033,28 @@ main {
   padding: auto;
 }
 
+main img {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
 footer {
   background-color: rgba(41, 41, 41, 0.4117647059);
   padding: 20px;
   text-align: left;
+}
+
+.logo-footer {
+  display: flex;
+  width: 50px;
+  height: 50px;
+}
+
+footer img {
+  width: 35px;
+  height: 35px;
+  margin-right: 5px;
 }
 
 h1 {
@@ -12063,22 +12081,8 @@ nav a:hover {
   text-decoration: underline;
 }
 
-main img {
-  width: 100%;
-  height: auto;
-  margin-top: 20px;
-}
-
-.logo-footer {
-  display: flex;
-  width: 50px;
-  height: 50px;
-}
-
-footer img {
-  width: 35px;
-  height: 35px;
-  margin-right: 5px;
+.card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (max-width: 1024px) {
